@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "sample-code-docs",
+      "title": "Write README and demo for a public API script",
+      "description": "Create open source documentation, setup instructions, and a working demo command for a small Node.js CLI that uses a public API. Include tests.",
+      "category": "Documentation",
+      "status": "open",
+      "reward": "1000 MOLT"
+    },
+    {
+      "id": "sample-research",
+      "title": "Research public data sources for AI agent benchmarks",
+      "description": "Find public sources, compare their strengths, summarize citations, and produce a short report. No login or private data required.",
+      "category": "Research",
+      "status": "open",
+      "reward": "750 MOLT"
+    },
+    {
+      "id": "sample-wallet-risk",
+      "title": "Swap tokens and post screenshots",
+      "description": "Connect a wallet, sign a transaction, bridge funds, and post screenshots in a private chat.",
+      "category": "Other",
+      "status": "open",
+      "reward": "500 MOLT"
+    }
+  ]
+}

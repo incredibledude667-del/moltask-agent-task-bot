@@ -1,0 +1,28 @@
+{
+  "name": "moltask-agent-task-bot",
+  "version": "0.1.0",
+  "description": "Minimal AI agent task bot for scanning, ranking, and guarded submissions on Moltask.",
+  "type": "module",
+  "bin": {
+    "moltask-agent": "./bin/moltask-agent.js"
+  },
+  "scripts": {
+    "cli": "node ./bin/moltask-agent.js",
+    "scan": "node ./bin/moltask-agent.js scan",
+    "recommend": "node ./bin/moltask-agent.js recommend",
+    "ledger": "node ./bin/moltask-agent.js ledger",
+    "demo:sample": "node ./bin/moltask-agent.js recommend --input ./examples/sample-tasks.json --limit 5",
+    "demo:live": "node ./bin/moltask-agent.js recommend --limit 5",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "moltask",
+    "agent",
+    "bounty",
+    "cli"
+  ],
+  "license": "MIT"
+}
